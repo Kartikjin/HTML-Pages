@@ -1,0 +1,201 @@
+body {
+    font-family: 'Segoe UI';
+}
+
+.main-block {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.main-block .left {
+    height: 100%;
+    overflow: hidden;
+}
+
+.main-block .right {
+    height: 100%;
+    overflow: hidden;
+}
+
+.main-block .right .first {
+    height: 100%;
+}
+
+.main-block .left img {
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.main-block .right img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.main-block .left .first,
+.main-block .left .second,
+.main-block .right .first {
+    position: relative;
+}
+
+.main-block .right .first .text {
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    margin: 0 auto;
+    background-color: rgba(78, 136, 179, 0.6);
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.main-block .left .first .text {
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    margin: 0 auto;
+    background-color: rgba(254, 211, 48, 0.6);
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.main-block .left .second .text {
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    margin: 0 auto;
+    background-color: rgba(112, 161, 255, 0.6);
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.main-block .left .first .text .text-block,
+.main-block .left .second .text .text-block,
+.main-block .right .first .text .text-block {
+    position: relative;
+    padding: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.heading {
+    font-size: 45px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.detail-para {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 40px 0;
+}
+
+.btn {
+    width: 100%;
+    font-size: 35px;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.chat {
+    background-color: #FED330;
+}
+
+.call {
+    background-color: #70A1FF;
+}
+
+.find {
+    background-color: #4E88B3;
+    margin-bottom: 140px;
+}
+
+.city-name {
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 20px;
+    border: 0px solid #ffffff;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.quote {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.name {
+    text-align: right;
+}
+
+@media only screen and (max-width: 992px) {
+    .main-block .left img{
+        height: 100%;
+    }    
+    .heading {
+        font-size: 35px;
+    }
+
+    .detail-para {
+        font-size: 15px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+
+    .find {
+        margin-bottom: 70px;
+    }
+
+    .quote {
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .heading {
+        font-size: 25px;
+    }
+
+    .detail-para {
+        font-size: 12px;
+    }
+
+    .btn {
+        font-size: 12px;
+    }
+
+    .find {
+        margin-bottom: 50px;
+    }
+
+    .city-name {
+        padding: 7px;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .quote {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .main-block .left img,.main-block .right{
+        height: 500px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .detail-para{
+        margin: 10px 0;
+    }
+}

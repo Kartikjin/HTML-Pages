@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/css/mdb.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"> -->
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Blog Open Article</title>
+</head>
+
+<body>
+
+    <nav class="mb-1 navbar navbar-expand-lg " id="navbar-color">
+        <a class="navbar-brand" href="#"><i class="far fa-square"></i></a>
+        <div id="des">
+            <form class="form-inline my-1">
+                <div class="md-form form-sm my-0">
+                    <input class="form-control form-control-sm mr-sm-2 mb-0 searchbox-length" type="text"
+                        placeholder="Search" aria-label="Search">
+                </div>
+
+                <!-- <button class="btn btn-outline-white btn-sm my-0" type="submit">Search</button> -->
+            </form>
+        </div>
+
+        <button onclick="myFunction()" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <img src="images/menu.svg" class="z-depth-0" alt="avatar image" height="25">
+        </button>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+            <ul class="navbar-nav mr-auto">
+                <!-- <a class="navbar-brand d-flex justify-content-end" href="#"><i class="far fa-square"></i></a> -->
+
+
+                <li class="nav-item active">
+
+                    <div>
+                        <p class="nav-greeting" id="tres">Hello, <br>
+                            <span id="" class="user-name">samantha</span>
+                        </p>
+                    </div>
+
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"><img src="images/rss.svg" class="nav-icon" alt=""> FEED
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="images/sms.svg" class="nav-icon" alt="">FORUM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="images/pencil.svg" class="nav-icon" alt="">BLOG</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="images/doctor.svg" class="nav-icon" alt="">DOCTOR</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="images/team.svg" class="nav-icon" alt="">MEETUP!</a>
+                </li>
+
+                <li class="nav-item" id="nav-function-items">
+                    <div id="nav-function-items">
+                        <a class="dropdown-item nav-function" href="#">Account setting</a>
+                        <a class="dropdown-item nav-function" href="#">Contact Us</a>
+                        <a class="dropdown-item nav-function" href="#">Sign Out</a>
+                    </div>
+                </li>
+
+            </ul>
+            <div id="un">
+                <form class="form-inline my-1">
+                    <div class="md-form form-sm my-0">
+                        <input class="form-control form-control-sm mr-sm-2 mb-0" type="text" placeholder="search"
+                            searchbox-length aria-label="Search">
+                    </div>
+                    <!-- <button class="btn btn-outline btn-sm my-0" type="submit">Search</button> -->
+                </form>
+            </div>
+            <ul class="navbar-nav ml-auto nav-flex-icons">
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light">
+
+                    </a>
+                </li>
+
+
+                <li class="nav-item dropdown" id="nav-function-icon">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <img src="images/menu.svg" class="z-depth-0" alt="avatar image" height="25">
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-right dropdown-default dropdown-inside"
+                        aria-labelledby="navbarDropdownMenuLink-333">
+                        <a class="dropdown-item" href="#">Account setting</a>
+                        <a class="dropdown-item" href="#">Contact Us</a>
+                        <a class="dropdown-item" href="#">Sign Out</a>
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+
+
+    </nav>
+
+
+
+
+
+    <div class="container-fluid main-content">
+        <div class="row">
+
+            <!-- Left Side  -->
+            <div class="col-lg-10 col-12">
+                <div class="left">
+
+                    <div class="container-fluid">
+
+                        <div class="row">
+
+                            <div class="col-sm-12 col-12">
+
+                                <div class="row">
+                                    <div class="col-lg-1 col-sm-2 col-3 text-center">
+                                        <img class="post-profile-pic"
+                                            src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+                                            alt="profile-pic">
+                                    </div>
+                                    <div class="col-lg-11 col-sm-6 col-4">
+                                        <div class="row">
+                                            <div class="col-lg-12 name">
+                                                <h4><a href="#" class="post-name">Derek Holland</a></h4>
+                                            </div>
+                                            <div class="col-lg-12 px-0">
+                                                <p class="post-time">19 hours ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- only visible on small screens ie. less than 992px-->
+
+                                    <div class="col-lg-12 col-sm-4 col-5 d-block d-lg-none">
+                                        <ul class="share text-right">
+                                            <li><a href=""><i class="fab fa-pagelines"></i></a></li>
+                                            <li><a href=""><i class="fas fa-share"></i></a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="container-fluid">
+
+                        <div class="row">
+                            <div class="col-lg-1 d-none d-lg-block">
+
+                            </div>
+                            <div class="col-lg-9 col-12 question">
+                                <h2 class="ques">I have been having troubles falling asleep. Any suggestion?</h2>
+                            </div>
+                            <div class="col-lg-2 d-none d-lg-block">
+                                <ul class="share text-right">
+                                    <li><a href=""><i class="fab fa-pagelines"></i></a></li>
+                                    <li><a href=""><i class="fas fa-share"></i></a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="comment-block">
+                        <!-- Comment 1st -->
+
+                        <div class="container-fluid comment-block">
+                            <div class="row">
+
+                                <div class="col-lg-1 d-none d-lg-block">
+                                    <div class="vote">
+                                        <span class="up-votes">57</span>
+                                        <p class="up-text">upvotes</p>
+                                    </div>
+                                </div>
+                                <div class="col-5 d-block d-lg-none">
+                                    <ul class="vote-sm text-right">
+                                        <li><a href=""><i class="fas fa-thumbs-up"></i></a></li>
+                                        <li><span class="up-votes">57</span></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-11 col-7 order-first order-lg-last padding-0">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-lg-1 col-2">
+                                                <div class="comment-pic text-center">
+                                                    <img class="comment-profile-pic"
+                                                        src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+                                                        alt="profile-pic">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-11 col-10 text-left comment-prof">
+                                                <h4><a href="#" class="comment-name">Derek Holland</a></h4>
+                                                <p class="comment-time">19 hours ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-1 d-none d-lg-block"></div>
+                            <div class="col-lg-11 col-12">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-lg-1 d-none d-lg-block">
+                                            <div class="icon text-center">
+                                                <i class="fas fa-thumbs-up"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-11 col-12 comment-text">
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam quas
+                                                totam delectus
+                                                voluptatum numquam amet, nisi, veniam et necessitatibus unde sint quasi,
+                                                corporis deserunt
+                                                dolorum similique porro rem atque perspiciatis. Lorem ipsum dolor sit
+                                                amet consectetur
+                                                adipisicing elit. Rerum, ex minima? Tempora exercitationem maxime
+                                                perspiciatis deserunt odio
+                                                porro atque rem molestias numquam laborum! Modi consequatur omnis nisi
+                                                id dolorem facere!
+                                                adipisicing elit. Rerum, ex minima? Tempora exercitationem maxime
+                                                perspiciatis deserunt odio
+                                                porro atque rem molestias numquam laborum! Modi consequatur omnis nisi
+                                                id dolorem facere!
+                                            </p>
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam quas
+                                                totam delectus
+                                                voluptatum numquam amet, nisi, veniam et necessitatibus unde sint quasi,
+                                                corporis deserunt
+                                                dolorum similique porro rem atque perspiciatis. Lorem ipsum dolor sit
+                                                amet consectetur
+                                                adipisicing elit. Rerum, ex minima? Tempora exercitationem maxime
+                                                perspiciatis deserunt odio
+                                                porro atque rem molestias numquam laborum! Modi consequatur omnis nisi
+                                                id dolorem facere!
+                                                adipisicing elit. Rerum, ex minima? Tempora exercitationem maxime
+                                                perspiciatis deserunt odio
+                                                porro atque rem molestias numquam laborum! Modi consequatur omnis nisi
+                                                id dolorem facere!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Comment 1st end -->
+                    </div>
+                </div>
+            </div>
+            <!-- Left Side End -->
+
+            <!-- Right Side -->
+
+            <div class="col-lg-2 col-12 d-none d-lg-block">
+                <div class="contain">
+                    <div class="vertical-center">
+                        <h2>Advertisement</h2>
+                        <h2><span class="special">Goes</span></h2>
+                        <h2>Here</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side End -->
+
+            <!-- Left Side  -->
+            <div class="col-lg-10 col-12">
+                <div class="left">
+
+                    <div class="container-fluid">
+
+                        <div class="row">
+
+                            <div class="col-sm-12 col-12">
+
+                                <div class="row">
+                                    <div class="col-lg-1 col-sm-2 col-3 text-center">
+                                        <img class="post-profile-pic"
+                                            src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+                                            alt="profile-pic">
+                                    </div>
+                                    <div class="col-lg-11 col-sm-6 col-4">
+                                        <div class="row">
+                                            <div class="col-lg-12 name">
+                                                <h4><a href="#" class="post-name">Derek Holland</a></h4>
+                                            </div>
+                                            <div class="col-lg-12 px-0">
+                                                <p class="post-time">19 hours ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- only visible on small screens ie. less than 992px-->
+
+                                    <div class="col-lg-12 col-sm-4 col-5 d-block d-lg-none">
+                                        <ul class="share text-right">
+                                            <li><a href=""><i class="fab fa-pagelines"></i></a></li>
+                                            <li><a href=""><i class="fas fa-share"></i></a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="container-fluid">
+
+                        <div class="row">
+                            <div class="col-lg-1 d-none d-lg-block">
+
+                            </div>
+                            <div class="col-lg-9 col-12 question">
+                                <h2 class="ques">I have been having troubles falling asleep. Any suggestion?</h2>
+                            </div>
+                            <div class="col-lg-2 d-none d-lg-block">
+                                <ul class="share text-right">
+                                    <li><a href=""><i class="fab fa-pagelines"></i></a></li>
+                                    <li><a href=""><i class="fas fa-share"></i></a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="comment-block">
+                        <!-- Comment 1st -->
+
+                        <div class="container-fluid comment-block">
+                            <div class="row">
+
+                                <div class="col-lg-1 d-none d-lg-block">
+                                    <div class="vote">
+                                        <span class="up-votes">57</span>
+                                        <p class="up-text">upvotes</p>
+                                    </div>
+                                </div>
+                                <div class="col-5 d-block d-lg-none">
+                                    <ul class="vote-sm text-right">
+                                        <li><a href=""><i class="fas fa-thumbs-up"></i></a></li>
+                                        <li><span class="up-votes">57</span></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-11 col-7 order-first order-lg-last padding-0">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col-lg-1 col-2">
+                                                <div class="comment-pic text-center">
+                                                    <img class="comment-profile-pic"
+                                                        src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
+                                                        alt="profile-pic">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-11 col-10 text-left comment-prof">
+                                                <h4><a href="#" class="comment-name">Derek Holland</a></h4>
+                                                <p class="comment-time">19 hours ago</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-1 d-none d-lg-block"></div>
+                            <div class="col-lg-11 col-12">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-lg-1 d-none d-lg-block">
+                                            <div class="icon text-center">
+                                                <i class="fas fa-thumbs-up"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-11 col-12 comment-text">
+                                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam quas
+                                                totam delectus
+                                                voluptatum numquam amet, nisi, veniam et necessitatibus unde sint quasi,
+                                                corporis deserunt
+                                                dolorum similique porro rem atque perspiciatis. Lorem ipsum dolor sit
+                                                amet consectetur
+                                                adipisicing elit. Rerum, ex minima? Tempora exercitationem maxime
+                                                perspiciatis deserunt odio
+                                                porro atque rem molestias numquam laborum! Modi consequatur omnis nisi
+                                                id dolorem facere!
+                                                adipisicing elit. Rerum, ex minima? Tempora exercitationem maxime
+                                                perspiciatis deserunt odio
+                                                porro atque rem molestias numquam laborum! Modi consequatur omnis nisi
+                                                id dolorem facere!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Comment 1st end -->
+
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Left Side End -->
+
+            <!-- Right Side -->
+
+            <div class="col-lg-2 col-12">
+                <div class="contain">
+                    <div class="vertical-center">
+                        <h2>Advertisement</h2>
+                        <h2><span class="special">Goes</span></h2>
+                        <h2>Here</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side End -->
+
+        </div>
+        <div class="row">
+            <div class="col-12 bg-secondary text-center py-3 footer">
+                <p class="my-auto">© 2020 Copyright:<a href="#" class="link"> Unshadows.com</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+    </script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/js/mdb.min.js">
+    </script>
+    <!-- imp js file -->
+    <script type="text/javascript" src="script/nav.js"></script>
+
+</body>
+
+</html>
